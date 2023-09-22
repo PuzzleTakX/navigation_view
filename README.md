@@ -7,8 +7,6 @@ by most animation flutter
 
 ## Demo new
 
-<img src="https://github.com/PuzzleTakX/navigation_view/blob/master/demo/1.jpg?raw=true" alt="image_demo" width="300" height="700">
-<img src="https://github.com/PuzzleTakX/navigation_view/blob/master/demo/2.jpg?raw=true" alt="image_demo" width="300" height="700">
 <img src="https://github.com/PuzzleTakX/navigation_view/blob/master/demo/3.gif?raw=true" alt="image_demo" width="300" height="700">
 
 ## Installation ☺
