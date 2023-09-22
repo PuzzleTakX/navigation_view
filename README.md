@@ -17,12 +17,13 @@ Then, run `flutter pub get` to fetch the package.
 
 Import the package in your Dart file:
 
-dart
-
+```dart
 import 'package:color_widget_navigation/color_widget_navigation.dart';
+```
 
 Create a `NavigationView` widget and provide the necessary parameters:
 
+```
 dart
 NavigationView(
 onChangePage: (c) {
@@ -49,6 +50,7 @@ childBefore: Icon(Icons.not_accessible, color: Colors.grey.withAlpha(60), size: 
 ),
 ],
 )
+```
 
 In the above code, `onChangePage` is a callback function that is triggered when the user changes the page. You can handle the page change logic inside this function.
 
