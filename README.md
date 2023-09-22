@@ -7,6 +7,7 @@ Color Widget Navigation is a Flutter package that provides a navigation componen
 To use the Color Widget Navigation package, add the following dependency to your `pubspec.yaml` file:
 
 yaml
+
 dependencies:
 color_widget_navigation: ^1.0.0
 
@@ -17,6 +18,7 @@ Then, run `flutter pub get` to fetch the package.
 Import the package in your Dart file:
 
 dart
+
 import 'package:color_widget_navigation/color_widget_navigation.dart';
 
 Create a `NavigationView` widget and provide the necessary parameters:
