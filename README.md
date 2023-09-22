@@ -23,8 +23,7 @@ import 'package:color_widget_navigation/color_widget_navigation.dart';
 
 Create a `NavigationView` widget and provide the necessary parameters:
 
-```
-dart
+```dart
 NavigationView(
 onChangePage: (c) {
 // Handle page change here
