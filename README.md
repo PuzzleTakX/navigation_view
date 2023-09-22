@@ -14,6 +14,7 @@ by most animation flutter
 To use the NavigationView package, add the following dependency to your `pubspec.yaml`
 file:
 
+
 ```yaml
 dependencies:
 navigation_view: ^1.0.1
