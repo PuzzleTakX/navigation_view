@@ -1,0 +1,20 @@
+name: navigation_view
+description: Package NavigationView
+version: 1.0.0
+homepage: https://puzzletak.ir
+repository: https://github.com/PuzzleTakX/navigation_view
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
