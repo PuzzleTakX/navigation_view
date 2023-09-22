@@ -1,73 +1,75 @@
-# Color Widget Navigation
+# NavigationView (1.0.1)
 
-Color Widget Navigation is a Flutter package that provides a navigation component with customizable colors and icons. It allows you to easily create a navigation bar with animated transitions between different pages.
+NavigationView is a Flutter package that provides a navigation component with customizable
+colors and icons. It allows you to easily create a navigation bar with animated transitions between
+different pages.
+by most animation flutter
 
-## Installation
+## Demo new
 
-To use the Color Widget Navigation package, add the following dependency to your `pubspec.yaml` file:
+<img src="https://github.com/PuzzleTakX/navigation_view/blob/master/demo/3.gif?raw=true" alt="image_demo" width="300" height="700">
 
-yaml
+## Installation ☺
+
+To use the NavigationView package, add the following dependency to your `pubspec.yaml`
+file:
+
+```yaml
 dependencies:
-color_widget_navigation: ^1.0.0
-
+navigation_view: ^1.0.1
+```
 Then, run `flutter pub get` to fetch the package.
 
 ## Usage
 
 Import the package in your Dart file:
 
-dart
-import 'package:color_widget_navigation/color_widget_navigation.dart';
+```dart
+import 'package:navigation_view/navigation_view.dart';
+```
 
 Create a `NavigationView` widget and provide the necessary parameters:
 
-dart
-NavigationView(
-onChangePage: (c) {
-// Handle page change here
-},
+```dart
+ NavigationView(
+onChangePage: (c) {},
 curve: Curves.easeInBack,
 durationAnimation: const Duration(milliseconds: 400),
 items: [
-ItemNavigationView(
-childAfter: const Icon(Icons.home_rounded, color: Colors.blue, size: 30),
-childBefore: Icon(Icons.home_outlined, color: Colors.grey.withAlpha(60), size: 30),
+    ItemNavigationView(childAfter: const Icon(Icons.home_rounded,color: Colors.blue,size: 30,),
+    childBefore: Icon(Icons.home_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
+    ItemNavigationView(childAfter: const Icon(Icons.widgets_rounded,color: Colors.blue,size: 30,),
+    childBefore: Icon(Icons.now_widgets_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
+    ItemNavigationView(childAfter: const Icon(Icons.wifi,color: Colors.blue,size: 30,),childBefore: Icon(Icons.wifi_lock,color: Colors.grey.withAlpha(60),size: 30,)),
+    ItemNavigationView(childAfter: const Icon(Icons.accessible,color: Colors.blue,size: 30,),
+    childBefore: Icon(Icons.not_accessible,color: Colors.grey.withAlpha(60),size: 30,)),
+    ],
 ),
-ItemNavigationView(
-childAfter: const Icon(Icons.widgets_rounded, color: Colors.blue, size: 30),
-childBefore: Icon(Icons.now_widgets_outlined, color: Colors.grey.withAlpha(60), size: 30),
-),
-ItemNavigationView(
-childAfter: const Icon(Icons.wifi, color: Colors.blue, size: 30),
-childBefore: Icon(Icons.wifi_lock, color: Colors.grey.withAlpha(60), size: 30),
-),
-ItemNavigationView(
-childAfter: const Icon(Icons.accessible, color: Colors.blue, size: 30),
-childBefore: Icon(Icons.not_accessible, color: Colors.grey.withAlpha(60), size: 30),
-),
-],
-)
+```
 
-In the above code, `onChangePage` is a callback function that is triggered when the user changes the page. You can handle the page change logic inside this function.
+In the above code, `onChangePage` is a callback function that is triggered when the user changes the
+page. You can handle the page change logic inside this function.
 
-The `curve` parameter allows you to specify the animation curve for the transitions between pages. The `durationAnimation` parameter sets the duration of the animation.
+The `curve` parameter allows you to specify the animation curve for the transitions between pages.
+The `durationAnimation` parameter sets the duration of the animation.
 
-The `items` parameter is a list of `ItemNavigationView` widgets. Each `ItemNavigationView` represents a navigation item and consists of two child widgets: `childAfter` and `childBefore`. These child widgets can be any widget, but in this example, we use `Icon` widgets from the `Icons` class.
+The `items` parameter is a list of `ItemNavigationView` widgets. Each `ItemNavigationView`
+represents a navigation item and consists of two child widgets: `childAfter` and `childBefore`.
+These child widgets can be any widget, but in this example, we use `Icon` widgets from the `Icons`
+class.
 
 Feel free to customize the icons, colors, and other properties as per your needs.
 
 ## Example
 
-For a complete example of using the Color Widget Navigation package, refer to the [example](https://github.com/example-link) provided.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request on the [GitHub repository](https://github.com/repository-link).
+For a complete example of using the NavigationView package, refer to
+the [example](https://github.com/PuzzleTakX/navigation_view/tree/master/example) provided.
 
 ## License
 
-This package is released under the MIT License. See the [LICENSE](https://github.com/license-link) file for more details.
+This package is released under the MIT License. See the [LICENSE](https://github.com/PuzzleTakX/navigation_view/blob/master/LICENSE)
+file for more details.
 
 ## Credits
 
-Color Widget Navigation is developed and maintained by [Your Name](https://your-website-link).
+NavigationView is developed and maintained by [puzzleTak](https://github.com/PuzzleTakX).

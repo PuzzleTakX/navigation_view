@@ -1,4 +1,4 @@
-# NavigationView
+# NavigationView (1.0.1)
 
 NavigationView is a Flutter package that provides a navigation component with customizable
 colors and icons. It allows you to easily create a navigation bar with animated transitions between
@@ -16,7 +16,7 @@ file:
 
 ```yaml
 dependencies:
-color_widget_navigation: ^1.0.0
+navigation_view: ^1.0.1
 ```
 Then, run `flutter pub get` to fetch the package.
 
