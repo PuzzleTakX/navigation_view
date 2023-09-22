@@ -15,7 +15,7 @@ To use the NavigationView package, add the following dependency to your `pubspec
 file:
 
 ```yaml
-dependencies:
+dependencies: 
 navigation_view: ^1.0.1
 ```
 Then, run `flutter pub get` to fetch the package.

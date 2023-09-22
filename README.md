@@ -16,7 +16,7 @@ file:
 
 
 ```yaml
-dependencies:
+dependencies: 
 navigation_view: ^1.0.1
 ```
 Then, run `flutter pub get` to fetch the package.
