@@ -1,6 +1,6 @@
 name: navigation_view
 description: NavigationView is a Flutter package that provides a customizable navigation bar with animated transitions.
-version: 1.0.5
+version: 1.0.6
 homepage: https://github.com/PuzzleTakX
 repository: https://github.com/PuzzleTakX/navigation_view
 

@@ -1,4 +1,4 @@
-# NavigationView (1.0.1)
+# NavigationView (1.0.6)
 
 [![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
 [![pub points](https://img.shields.io/pub/points/navigation_view?color=2E8B57&label=pub%20points)](https://pub.dev/packages/navigation_view/score)
@@ -22,7 +22,7 @@ file:
 [![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
 ```yaml
 dependencies:
-navigation_view: ^1.0.5
+navigation_view: ^1.0.6
 ```
 Then, run `flutter pub get` to fetch the package.
 
