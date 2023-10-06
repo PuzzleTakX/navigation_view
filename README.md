@@ -1,5 +1,10 @@
 # NavigationView (1.0.1)
 
+[![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
+[![pub points](https://img.shields.io/pub/points/navigation_view?color=2E8B57&label=pub%20points)](https://pub.dev/packages/navigation_view/score)
+
+
+
 NavigationView is a Flutter package that provides a navigation component with customizable
 colors and icons. It allows you to easily create a navigation bar with animated transitions between
 different pages.
@@ -14,10 +19,10 @@ by most animation flutter
 To use the NavigationView package, add the following dependency to your `pubspec.yaml`
 file:
 
-
+[![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
 ```yaml
 dependencies: 
-navigation_view: ^1.0.1
+navigation_view: ^1.0.2
 ```
 Then, run `flutter pub get` to fetch the package.
 

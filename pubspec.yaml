@@ -1,6 +1,6 @@
 name: navigation_view
-description: Package NavigationView
-version: 1.0.1
+description: NavigationView is a Flutter package that provides a navigation component with customizable colors and icons. It allows you to easily create a navigation bar with animated transitions between
+version: 1.0.2
 homepage: https://puzzletak.ir
 repository: https://github.com/PuzzleTakX/navigation_view
 
