@@ -22,7 +22,7 @@ file:
 [![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
 ```yaml
 dependencies: 
-navigation_view: ^1.0.2
+navigation_view: ^1.0.5
 ```
 Then, run `flutter pub get` to fetch the package.
 

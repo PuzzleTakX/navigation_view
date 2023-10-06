@@ -1,5 +1,10 @@
 # NavigationView (1.0.1)
 
+[![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
+[![pub points](https://img.shields.io/pub/points/navigation_view?color=2E8B57&label=pub%20points)](https://pub.dev/packages/navigation_view/score)
+
+
+
 NavigationView is a Flutter package that provides a navigation component with customizable
 colors and icons. It allows you to easily create a navigation bar with animated transitions between
 different pages.
@@ -14,9 +19,10 @@ by most animation flutter
 To use the NavigationView package, add the following dependency to your `pubspec.yaml`
 file:
 
+[![pub package](https://img.shields.io/pub/v/navigation_view.svg)](https://pub.dev/packages/navigation_view)
 ```yaml
-dependencies: 
-navigation_view: ^1.0.2
+dependencies:
+navigation_view: ^1.0.5
 ```
 Then, run `flutter pub get` to fetch the package.
 
@@ -36,14 +42,14 @@ onChangePage: (c) {},
 curve: Curves.easeInBack,
 durationAnimation: const Duration(milliseconds: 400),
 items: [
-    ItemNavigationView(childAfter: const Icon(Icons.home_rounded,color: Colors.blue,size: 30,),
-    childBefore: Icon(Icons.home_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
-    ItemNavigationView(childAfter: const Icon(Icons.widgets_rounded,color: Colors.blue,size: 30,),
-    childBefore: Icon(Icons.now_widgets_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
-    ItemNavigationView(childAfter: const Icon(Icons.wifi,color: Colors.blue,size: 30,),childBefore: Icon(Icons.wifi_lock,color: Colors.grey.withAlpha(60),size: 30,)),
-    ItemNavigationView(childAfter: const Icon(Icons.accessible,color: Colors.blue,size: 30,),
-    childBefore: Icon(Icons.not_accessible,color: Colors.grey.withAlpha(60),size: 30,)),
-    ],
+ItemNavigationView(childAfter: const Icon(Icons.home_rounded,color: Colors.blue,size: 30,),
+childBefore: Icon(Icons.home_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
+ItemNavigationView(childAfter: const Icon(Icons.widgets_rounded,color: Colors.blue,size: 30,),
+childBefore: Icon(Icons.now_widgets_outlined,color: Colors.grey.withAlpha(60),size: 30,)),
+ItemNavigationView(childAfter: const Icon(Icons.wifi,color: Colors.blue,size: 30,),childBefore: Icon(Icons.wifi_lock,color: Colors.grey.withAlpha(60),size: 30,)),
+ItemNavigationView(childAfter: const Icon(Icons.accessible,color: Colors.blue,size: 30,),
+childBefore: Icon(Icons.not_accessible,color: Colors.grey.withAlpha(60),size: 30,)),
+],
 ),
 ```
 

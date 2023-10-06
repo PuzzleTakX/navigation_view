@@ -14,7 +14,7 @@ class NavigationView extends StatefulWidget{
   final Gradient? gradient;
   final Duration? durationAnimation;
   final List<ItemNavigationView> items;
-   const NavigationView({super.key,
+   const NavigationView({Key? key,
 
 
     required this.onChangePage,
@@ -28,7 +28,7 @@ class NavigationView extends StatefulWidget{
     this.borderTopColor,
 
 
-  });
+  }) : super(key: key);
 
   @override
   State<StatefulWidget> createState()=> _NavigationView();
