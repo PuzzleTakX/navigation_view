@@ -76,6 +76,37 @@ the [example](https://github.com/PuzzleTakX/navigation_view/tree/master/example)
 This package is released under the MIT License. See the [LICENSE](https://github.com/PuzzleTakX/navigation_view/blob/master/LICENSE)
 file for more details.
 
+##Tags
+    Flutter Navigation: Flutter, Mobile App Development, Navigation Component
+        Emphasize the project's connection to Flutter and mobile app development.
+
+    Customizable Navigation Bar: Custom Colors, Icons, Animated Transitions
+        Highlight the project's customization options for navigation bars.
+
+    User-Friendly Navigation: Smooth Transitions, User Experience, Animation Effects
+        Indicate the improved user experience and animation features.
+
+    Flutter Package: Flutter Plugin, Dart Library, UI Components
+        Clarify that the project is a Flutter package or plugin.
+
+    Mobile App UI: Mobile Interface, User Interface, App Design
+        Attract users interested in enhancing their app's user interface.
+
+    Open Source Project: GitHub Repository, Code Sharing, Collaboration
+        Mention that the project is open source, encouraging collaboration.
+
+    Customizable Icons: Icon Sets, Visual Design, Navigation Items
+        Highlight the icon customization features.
+
+    Flutter Animation: Flutter Animation Effects, Visual Enhancements
+        Promote the use of Flutter's animation capabilities in the project.
+
+    Flutter Development: Flutter Framework, App Development, UI Design
+        Attract developers interested in Flutter development and UI design.
+
+    App Navigation: App Navigation Bar, Page Transitions, UI Components
+        Make it clear that the project is focused on app navigation and UI components.
+
 ## Credits
 
 NavigationView is developed and maintained by [puzzleTak](https://github.com/PuzzleTakX).
