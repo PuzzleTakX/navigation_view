@@ -76,7 +76,7 @@ the [example](https://github.com/PuzzleTakX/navigation_view/tree/master/example)
 This package is released under the MIT License. See the [LICENSE](https://github.com/PuzzleTakX/navigation_view/blob/master/LICENSE)
 file for more details.
 
-##Tags
+## Tags
 
     Flutter Navigation: Flutter, Mobile App Development, Navigation Component
         Emphasize the project's connection to Flutter and mobile app development.
